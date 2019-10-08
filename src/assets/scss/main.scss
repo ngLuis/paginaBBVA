@@ -1,41 +1,11 @@
-@import '../css/reset.css';
+//Bases
+@import '../scss/base/reset';
 
-.panel-interesante{
-    display: grid;
-    grid-template-areas: "imagen"
-                         "contenido";
-    
-    width: 20vw;
+//Components
+@import '../scss/components/panel';
+@import '../scss/components/section';
+@import '../scss/components/new';
 
-    &__portada {
-        grid-area: imagen;
-        width: 20vw;
-    }
-
-    &__contenido {
-        grid-area: contenido;
-        padding: 1vw;
-    }
-}
-
-.contenido {
-    display: grid;
-    grid-template-areas: "titular"
-                         "descripcion"
-                         "link";
-    
-
-    &__titular {
-        grid-area: titular;
-        font-size: 2vw;
-        text-decoration: bold;
-    }
-
-    &__descripcion {
-        grid-area: descripcion;
-    }
-
-    &__link {
-        grid-area: link;
-    }
-}
+//Layouts
+@import '../scss/layout/l-section';
+@import '../scss/layout/l-news'

@@ -1,0 +1,33 @@
+.new {
+
+    border: 1px solid red;
+    // width: 18.3vw;
+
+    &--image-left {
+        display: grid;
+        grid-template-areas: "image description";
+        grid-template-columns: 2fr 8fr;
+        // width: 38vw;
+    }
+
+    &__image {
+        grid-area: image;
+        width: 100%;
+    }
+
+    &__description{
+        grid-area: description;
+        width: 18vw;
+        padding: 1vw;
+    }
+
+    &__title {
+        font-size: 2vw;
+        font-weight: bold;
+        margin-bottom: .8vh;
+    }
+
+    &__text {
+        margin-bottom: 3vh;
+    }
+}

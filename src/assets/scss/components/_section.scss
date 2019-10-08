@@ -1,0 +1,17 @@
+.section {
+    &--news{
+        background-color: grey;
+    }
+
+    &__title{
+        margin: 0px;
+        text-align: center;
+        padding: 3vh;
+        margin-bottom: 6vh;
+    }
+
+    &__content{
+        padding-left: 18vw;
+        padding-right: 23vw;
+    }
+}
