@@ -1,13 +1,21 @@
 .new {
 
-    border: 1px solid red;
-    // width: 18.3vw;
+    border: 1px solid darken(#e9e9e9,20%);
+    background-color: white;
+    width: 18vw;
+    font-family: 'Roboto', sans-serif;
 
     &--image-left {
+        width: 37.6vw;
         display: grid;
         grid-template-areas: "image description";
-        grid-template-columns: 2fr 8fr;
-        // width: 38vw;
+        grid-template-columns: 3fr 5fr;
+        
+    }
+
+    &--little-box {
+        margin-top: 3vh;
+        height: 436px;
     }
 
     &__image {
@@ -22,12 +30,19 @@
     }
 
     &__title {
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-weight: bold;
         margin-bottom: .8vh;
     }
 
     &__text {
         margin-bottom: 3vh;
+        color: darken(#e9e9e9,50%);
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #1973b8;
+        font-weight: bold;
     }
 }
