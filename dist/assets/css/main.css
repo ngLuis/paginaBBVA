@@ -402,6 +402,7 @@ html {
   border: 1px solid #b6b6b6;
   background-color: white;
   width: 18vw;
+  height: 100%;
   font-family: 'Roboto', sans-serif; }
   .new--image-left {
     width: 37.6vw;
