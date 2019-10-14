@@ -1,0 +1,18 @@
+.functionalities {
+    width: 463px;
+    height: 400px;
+    background-color: #1464a5;
+    padding-bottom: 150px;
+
+    &--dark {
+        background-color: darken(#1464a5, 20%);
+    }
+
+    &--midle {
+        background-color: darken(#1464a5, 10%);
+    }
+
+    &--light {
+        background-color: lighten(#1464a5, 10%);
+    }
+}
