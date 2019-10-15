@@ -1,3 +1,6 @@
+//Variables
+@import '../scss/abstract/variables/debug';
+
 //Bases
 @import '../scss/base/reset';
 @import './base/fonts';
@@ -8,8 +11,8 @@
 @import '../scss/components/clients';
 @import '../scss/components/button';
 @import '../scss/components/functionalities';
+@import '../scss/components/services';
 
 //Layouts
-@import '../scss/layout/l-section';
 @import '../scss/layout/l-news';
 @import '../scss/layout/l-columns';

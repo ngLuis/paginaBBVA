@@ -374,6 +374,8 @@ html {
   .section__content {
     padding-left: 18vw;
     padding-right: 23vw; }
+  .section__footer {
+    text-align: center; }
 
 .new {
   border: 1px solid #b6b6b6;
@@ -430,8 +432,8 @@ html {
   background-color: #02a5a5;
   border: 1px solid #02a5a5;
   text-align: center;
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto; }
   .button__text {
     line-height: 50px;
     font-weight: bold;
@@ -442,32 +444,53 @@ html {
     background-color: #017373; }
 
 .functionalities {
+  display: grid;
+  grid-template-areas: "content image";
   width: 463px;
   height: 400px;
   background-color: #1464a5;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  padding-top: 130px; }
   .functionalities--dark {
     background-color: #092d4a; }
   .functionalities--midle {
     background-color: #0e4878; }
   .functionalities--light {
     background-color: #1a80d2; }
+  .functionalities__content {
+    grid-area: content; }
+  .functionalities__image {
+    grid-area: image; }
+  .functionalities__title {
+    font-size: 2vw;
+    margin-bottom: 15px; }
 
-.l-sections {
-  display: grid;
-  grid-template-areas: "item1" "item2" "item3" "item4"; }
-
-.l-sections__item-1 {
-  grid-area: item1; }
-
-.l-sections__item-2 {
-  grid-area: item2; }
-
-.l-sections__item-3 {
-  grid-area: item3; }
-
-.l-sections__item-4 {
-  grid-area: item4; }
+.services {
+  width: 200px;
+  height: 300px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto; }
+  .services:hover {
+    cursor: pointer; }
+  .services__header {
+    width: 100%;
+    height: 65%;
+    border-radius: 100%;
+    background-color: #e9e9e9; }
+  .services__img {
+    padding: 32.5%; }
+  .services__content {
+    text-align: center;
+    margin-top: 15px; }
+  .services__title {
+    font-size: 1.5vw;
+    margin-bottom: 6px; }
+  .services__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1464a5; }
 
 .l-news {
   display: grid;
@@ -483,10 +506,8 @@ html {
     grid-area: item4; }
 
 .l-columns {
-  display: grid; }
-
-.l-columns--1-columns {
-  grid-template-columns: repeat(1, 1fr); }
+  display: grid;
+  grid-template-rows: 1fr; }
 
 .l-columns--2-columns {
   grid-template-columns: repeat(2, 1fr); }

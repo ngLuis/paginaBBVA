@@ -1,9 +1,16 @@
 .l-columns {
     display: grid;
+    grid-template-rows: 1fr;
 }
 
-@for $i from 1 through 12 {
+@for $i from 2 through 12 {
     .l-columns--#{$i}-columns {
         grid-template-columns: repeat($i, 1fr);
+    }
+}
+
+.l-columns__area {
+    @if $debug {
+        border: 1px solid red;
     }
 }

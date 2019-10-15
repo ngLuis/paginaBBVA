@@ -1,7 +1,6 @@
 .section {
 
     background-color: #ffffff;
-    // height: 800px;
     padding-bottom: 10vh;
 
     &--news{
@@ -24,5 +23,9 @@
     &__content{
         padding-left: 18vw;
         padding-right: 23vw;
+    }
+
+    &__footer {
+        text-align: center;
     }
 }
