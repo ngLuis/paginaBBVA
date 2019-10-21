@@ -1,21 +1,26 @@
 .button {
+    display: inline-block;
     width: 200px;
     height: 50px;
     background-color: #02a5a5;
     border: 1px solid #02a5a5;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-
-    &__text {
-        line-height: 50px;
-        font-weight: bold;
-        font-size: 16px;
-        color: #ffffff;
-    }
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
 
     &:hover{
         cursor: pointer;
         background-color: darken(#02a5a5, 10%);
+    }
+
+    &--claro {
+        background-color: #ffffff;
+        color: #02a5a5;
+
+        &:hover {
+            background-color: #ffffff;
+        }
     }
 }

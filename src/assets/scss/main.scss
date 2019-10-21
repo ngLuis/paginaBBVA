@@ -1,6 +1,9 @@
 //Variables
 @import '../scss/abstract/variables/debug';
 
+//Mixins
+@import '../scss/abstract/mixins/mixins';
+
 //Bases
 @import '../scss/base/reset';
 @import './base/fonts';
