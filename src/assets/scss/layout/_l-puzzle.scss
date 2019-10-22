@@ -1,0 +1,22 @@
+.l-puzzle{
+    display: grid;
+    grid-template-areas: "left up up"
+                         "left center right";
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__left{
+        grid-area: left;
+    }
+
+    &__up{
+        grid-area: up;
+    }
+
+    &__center{
+        grid-area: center;
+    }
+
+    &__right{
+        grid-area: right;
+    }
+}

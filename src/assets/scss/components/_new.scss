@@ -8,7 +8,7 @@
     &--image-left {
         width: 37.6vw;
         display: grid;
-        grid-template-areas: "image description";
+        grid-template-areas: "image content";
         grid-template-columns: 3fr 5fr;
         
     }
@@ -23,8 +23,8 @@
         width: 100%;
     }
 
-    &__description{
-        grid-area: description;
+    &__content{
+        grid-area: content;
         width: 18vw;
         padding: 1vw;
     }
