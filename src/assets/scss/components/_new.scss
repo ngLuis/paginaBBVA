@@ -2,11 +2,11 @@
 
     border: 1px solid darken(#e9e9e9,20%);
     background-color: white;
-    width: 18vw;
+    width: 288px;
     font-family: 'Roboto', sans-serif;
 
     &--image-left {
-        width: 37.6vw;
+        width: 602px;
         display: grid;
         grid-template-areas: "image content";
         grid-template-columns: 3fr 5fr;
@@ -14,8 +14,8 @@
     }
 
     &--little-box {
-        margin-top: 3vh;
-        height: 46vh;
+        margin-top: 24px;
+        height: 365px;
     }
 
     &__image {
@@ -25,8 +25,8 @@
 
     &__content{
         grid-area: content;
-        width: 18vw;
-        padding: 1vw;
+        width: 288px;
+        padding: 16px;
     }
 
     &__title {
@@ -36,7 +36,7 @@
     }
 
     &__text {
-        margin-bottom: 3vh;
+        margin-bottom: 24px;
         color: darken(#e9e9e9,50%);
     }
 
@@ -44,5 +44,21 @@
         text-decoration: none;
         color: #1973b8;
         font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+        margin: 0 auto;
+
+        &__title {
+            font-size: 3vw;
+        }
+
+        &__text {
+            font-size: 2.5vw;
+        }
+
+        &__link {
+            font-size: 2.5vw;
+        }
     }
 }
