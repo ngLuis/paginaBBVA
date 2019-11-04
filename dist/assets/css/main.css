@@ -359,13 +359,60 @@ html {
 
 .section {
   background-color: #ffffff;
-  padding-bottom: 160px;
   width: 100%; }
   .section--news {
     background-color: #e9e9e9; }
-  .section--functionality {
+  .section--dark {
     background-color: #004481;
     color: #ffffff; }
+  .section--padding-bottom-xs {
+    padding-bottom: 10px; }
+  .section--padding-top-xs {
+    padding-top: 10px; }
+  .section--padding-right-xs {
+    padding-right: 10em; }
+  .section--padding-left-xs {
+    padding-left: 10em; }
+  .section--padding-bottom-s {
+    padding-bottom: 20px; }
+  .section--padding-top-s {
+    padding-top: 20px; }
+  .section--padding-right-s {
+    padding-right: 20em; }
+  .section--padding-left-s {
+    padding-left: 20em; }
+  .section--padding-bottom-m {
+    padding-bottom: 50px; }
+  .section--padding-top-m {
+    padding-top: 50px; }
+  .section--padding-right-m {
+    padding-right: 50em; }
+  .section--padding-left-m {
+    padding-left: 50em; }
+  .section--padding-bottom-l {
+    padding-bottom: 80px; }
+  .section--padding-top-l {
+    padding-top: 80px; }
+  .section--padding-right-l {
+    padding-right: 80em; }
+  .section--padding-left-l {
+    padding-left: 80em; }
+  .section--padding-bottom-xl {
+    padding-bottom: 90px; }
+  .section--padding-top-xl {
+    padding-top: 90px; }
+  .section--padding-right-xl {
+    padding-right: 90em; }
+  .section--padding-left-xl {
+    padding-left: 90em; }
+  .section--padding-bottom-xxl {
+    padding-bottom: 100px; }
+  .section--padding-top-xxl {
+    padding-top: 100px; }
+  .section--padding-right-xxl {
+    padding-right: 100em; }
+  .section--padding-left-xxl {
+    padding-left: 100em; }
   .section__title {
     margin: 0px;
     text-align: center;
@@ -528,6 +575,15 @@ html {
       font-size: 3vw; }
     .service__link {
       font-size: 2.5vw; } }
+
+.menu {
+  display: flex;
+  flex-direction: row; }
+  .menu__option {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px; }
+    .menu__option--left {
+      margin-left: auto; }
 
 .l-puzzle {
   display: grid;

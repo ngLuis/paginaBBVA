@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    &__option {
+        font-family: 'Roboto', sans-serif;
+        margin-right: 30px;
+
+        &--left {
+            margin-left: auto;
+        }
+    }
+}

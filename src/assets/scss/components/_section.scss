@@ -1,16 +1,36 @@
+$paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
+
 .section {
 
     background-color: #ffffff;
-    padding-bottom: 160px;
+    // padding-bottom: 160px;
     width: 100%;
 
     &--news{
         background-color: #e9e9e9;
     }
 
-    &--functionality {
+    &--dark {
         background-color: #004481;
         color: #ffffff;
+    }
+
+    @each $sizeName, $sizeValue in $paddingSizes {
+        &--padding-bottom-#{$sizeName} {
+            padding-bottom: $sizeValue#{'px'};
+        }
+
+        &--padding-top-#{$sizeName} {
+            padding-top: $sizeValue#{'px'};
+        }
+
+        &--padding-right-#{$sizeName} {
+            padding-right: $sizeValue#{'em'};
+        }
+
+        &--padding-left-#{$sizeName} {
+            padding-left: $sizeValue#{'em'};
+        }
     }
 
     &__title{
