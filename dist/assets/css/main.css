@@ -365,6 +365,8 @@ html {
   .section--dark {
     background-color: #004481;
     color: #ffffff; }
+  .section--more-dark {
+    background-color: #00294e; }
   .section--padding-bottom-xs {
     padding-bottom: 10px; }
   .section--padding-top-xs {
@@ -420,17 +422,11 @@ html {
     margin-bottom: 35px;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vw; }
-  .section__content {
-    padding-left: 288px;
-    padding-right: 368px; }
   .section__footer {
     text-align: center; }
   @media (max-width: 700px) {
     .section__title {
-      font-size: 5vw; }
-    .section__content {
-      padding-left: 15%;
-      padding-right: 0px; } }
+      font-size: 5vw; } }
 
 .new {
   border: 1px solid #b6b6b6;
@@ -498,16 +494,18 @@ html {
         font-size: 2.5vw; } }
 
 .button {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #02a5a5;
   border: 1px solid #02a5a5;
   font-family: 'Roboto', sans-serif;
   line-height: 50px;
   font-weight: bold;
   font-size: 16px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center; }
   .button:hover {
     cursor: pointer;
     background-color: #017373; }
@@ -516,6 +514,11 @@ html {
     color: #02a5a5; }
     .button--claro:hover {
       background-color: #ffffff; }
+  .button--little {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    line-height: 30px; }
 
 .functionality {
   display: grid;
@@ -578,12 +581,35 @@ html {
 
 .menu {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  color: #99b4cc; }
   .menu__option {
     font-family: 'Roboto', sans-serif;
     margin-right: 30px; }
-    .menu__option--left {
+    .menu__option--right {
       margin-left: auto; }
+    .menu__option:hover {
+      cursor: pointer;
+      color: white; }
+  .menu--claro {
+    color: #bdbdbd; }
+  .menu--radioactive {
+    color: #2dcccd; }
+  .menu--header-bottom {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px; }
+  .menu--header-top {
+    font-size: 12px;
+    margin-bottom: 10px; }
+  .menu__icon {
+    margin-right: 4px; }
+  .menu__image {
+    width: 100px; }
+
+.logo {
+  width: 100px;
+  margin-right: 20px; }
 
 .l-puzzle {
   display: grid;
@@ -670,3 +696,15 @@ html {
   @media (max-width: 700px) {
     .l-columns--phone-12-columns {
       grid-template-columns: repeat(12, 1fr); } }
+
+.l-header-menu {
+  display: grid;
+  grid-template-areas: ". middle right" "left bottom bottom"; }
+  .l-header-menu__left {
+    grid-area: left; }
+  .l-header-menu__middle {
+    grid-area: middle; }
+  .l-header-menu__right {
+    grid-area: right; }
+  .l-header-menu__bottom {
+    grid-area: bottom; }

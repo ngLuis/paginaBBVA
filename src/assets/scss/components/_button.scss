@@ -1,7 +1,8 @@
 .button {
-    display: inline-block;
-    width: 200px;
-    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #02a5a5;
     border: 1px solid #02a5a5;
     font-family: 'Roboto', sans-serif;
@@ -9,6 +10,7 @@
     font-weight: bold;
     font-size: 16px;
     color: #ffffff;
+    text-align: center;
 
     &:hover{
         cursor: pointer;
@@ -22,5 +24,12 @@
         &:hover {
             background-color: #ffffff;
         }
+    }
+
+    &--little {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 13px;
+        line-height: 30px;
     }
 }

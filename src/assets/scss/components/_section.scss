@@ -15,6 +15,10 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
         color: #ffffff;
     }
 
+    &--more-dark {
+        background-color: darken(#004481, 10%);
+    }
+
     @each $sizeName, $sizeValue in $paddingSizes {
         &--padding-bottom-#{$sizeName} {
             padding-bottom: $sizeValue#{'px'};
@@ -43,8 +47,8 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
     }
 
     &__content{
-        padding-left: 288px;
-        padding-right: 368px;
+        // padding-left: 288px;
+        // padding-right: 368px;
     }
 
     &__footer {
@@ -57,8 +61,8 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
         }
 
         &__content {
-            padding-left: 15%;
-            padding-right: 0px;
+            // padding-left: 15%;
+            // padding-right: 0px;
             // margin: 0 auto;
         }
     }
