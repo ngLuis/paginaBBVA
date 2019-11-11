@@ -29,11 +29,11 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
         }
 
         &--padding-right-#{$sizeName} {
-            padding-right: $sizeValue#{'em'};
+            padding-right: $sizeValue#{'%'};
         }
 
         &--padding-left-#{$sizeName} {
-            padding-left: $sizeValue#{'em'};
+            padding-left: $sizeValue#{'%'};
         }
     }
 

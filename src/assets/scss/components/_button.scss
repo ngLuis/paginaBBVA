@@ -32,4 +32,15 @@
         font-size: 13px;
         line-height: 30px;
     }
+
+    &--reverse {
+        background-color: transparent;
+        color: #02a5a5;
+        border: 0px;
+
+        &:hover {
+            background-color: transparent;
+            color: white;
+        }
+    }
 }
