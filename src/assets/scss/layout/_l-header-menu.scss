@@ -1,14 +1,14 @@
 .l-header-menu {
     display: grid;
-    grid-template-areas: ". middle right"
+    grid-template-areas: ". top right"
                          "left bottom bottom";
 
     &__left {
         grid-area: left;
     }
 
-    &__middle {
-        grid-area: middle;
+    &__top {
+        grid-area: top;
     }
 
     &__right {

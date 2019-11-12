@@ -752,11 +752,11 @@ html {
 
 .l-header-menu {
   display: grid;
-  grid-template-areas: ". middle right" "left bottom bottom"; }
+  grid-template-areas: ". top right" "left bottom bottom"; }
   .l-header-menu__left {
     grid-area: left; }
-  .l-header-menu__middle {
-    grid-area: middle; }
+  .l-header-menu__top {
+    grid-area: top; }
   .l-header-menu__right {
     grid-area: right; }
   .l-header-menu__bottom {
