@@ -367,14 +367,6 @@ html {
     color: #ffffff; }
   .section--more-dark {
     background-color: #00294e; }
-  .section--padding-bottom-xs {
-    padding-bottom: 10px; }
-  .section--padding-top-xs {
-    padding-top: 10px; }
-  .section--padding-right-xs {
-    padding-right: 10%; }
-  .section--padding-left-xs {
-    padding-left: 10%; }
   .section--padding-bottom-s {
     padding-bottom: 20px; }
   .section--padding-top-s {
@@ -383,14 +375,36 @@ html {
     padding-right: 20%; }
   .section--padding-left-s {
     padding-left: 20%; }
+  .section--padding-vertical-s {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .section--padding-horizontal-s {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .section--padding-s {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%; }
   .section--padding-bottom-m {
-    padding-bottom: 50px; }
+    padding-bottom: 25px; }
   .section--padding-top-m {
-    padding-top: 50px; }
+    padding-top: 25px; }
   .section--padding-right-m {
-    padding-right: 50%; }
+    padding-right: 25%; }
   .section--padding-left-m {
-    padding-left: 50%; }
+    padding-left: 25%; }
+  .section--padding-vertical-m {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .section--padding-horizontal-m {
+    padding-left: 25%;
+    padding-right: 25%; }
+  .section--padding-m {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25%;
+    padding-right: 25%; }
   .section--padding-bottom-l {
     padding-bottom: 80px; }
   .section--padding-top-l {
@@ -399,6 +413,17 @@ html {
     padding-right: 80%; }
   .section--padding-left-l {
     padding-left: 80%; }
+  .section--padding-vertical-l {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  .section--padding-horizontal-l {
+    padding-left: 80%;
+    padding-right: 80%; }
+  .section--padding-l {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80%;
+    padding-right: 80%; }
   .section--padding-bottom-xl {
     padding-bottom: 90px; }
   .section--padding-top-xl {
@@ -407,6 +432,17 @@ html {
     padding-right: 90%; }
   .section--padding-left-xl {
     padding-left: 90%; }
+  .section--padding-vertical-xl {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+  .section--padding-horizontal-xl {
+    padding-left: 90%;
+    padding-right: 90%; }
+  .section--padding-xl {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 90%;
+    padding-right: 90%; }
   .section--padding-bottom-xxl {
     padding-bottom: 100px; }
   .section--padding-top-xxl {
@@ -415,10 +451,20 @@ html {
     padding-right: 100%; }
   .section--padding-left-xxl {
     padding-left: 100%; }
+  .section--padding-vertical-xxl {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .section--padding-horizontal-xxl {
+    padding-left: 100%;
+    padding-right: 100%; }
+  .section--padding-xxl {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100%;
+    padding-right: 100%; }
   .section__title {
     margin: 0px;
     text-align: center;
-    padding: 17px;
     margin-bottom: 35px;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vw; }

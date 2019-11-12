@@ -1,4 +1,4 @@
-$paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
+$paddingSizes : ("s": 20, "m": 25, "l" : 80, "xl" : 90, "xxl" : 100);
 
 .section {
 
@@ -35,20 +35,36 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
         &--padding-left-#{$sizeName} {
             padding-left: $sizeValue#{'%'};
         }
+
+        &--padding-vertical-#{$sizeName} {
+            padding-top: $sizeValue#{'px'};
+            padding-bottom: $sizeValue#{'px'};
+        }
+
+        &--padding-horizontal-#{$sizeName} {
+            padding-left: $sizeValue#{'%'};
+            padding-right: $sizeValue#{'%'};
+        }
+
+        &--padding-#{$sizeName} {
+            padding-top: $sizeValue#{'px'};
+            padding-bottom: $sizeValue#{'px'};
+            padding-left: $sizeValue#{'%'};
+            padding-right: $sizeValue#{'%'};
+        }
+
     }
 
     &__title{
         margin: 0px;
         text-align: center;
-        padding: 17px;
         margin-bottom: 35px;
         font-family: 'Roboto', sans-serif;
         font-size: 2.5vw;
     }
 
     &__content{
-        // padding-left: 288px;
-        // padding-right: 368px;
+
     }
 
     &__footer {
@@ -61,9 +77,7 @@ $paddingSizes : ("xs": 10, "s": 20, "m": 50, "l" : 80, "xl" : 90, "xxl" : 100);
         }
 
         &__content {
-            // padding-left: 15%;
-            // padding-right: 0px;
-            // margin: 0 auto;
+
         }
     }
 }
